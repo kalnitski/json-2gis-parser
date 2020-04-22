@@ -1,3 +1,9 @@
+/**
+ * @author Paul Kalnitski
+ * @contact kalnitski@polydev.io
+ * @copyright 2019-2020 All rights reserved
+ */
+
 const parseLineString = (string) => {
   let geoTags = [];
   string = string.replace(/\)/gm, "").replace(/\(/gm, "").replace(/LINESTRING/gm, "");
